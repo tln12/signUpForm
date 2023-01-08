@@ -4,10 +4,55 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Archivo&display=swap" rel="stylesheet">
     <title>Sign-Up Form</title>
     <link rel="stylesheet" href="styles.css">
     <script src="script.js" defer></script>
 </head>
+<body>
+    <img src="sandra-seitamaa-Zcr67MPWsSM-unsplash (1).jpg" alt="ambient concert">
+    <div class="right-container">
+        <p>This is not areal online service! You know you need something
+            like this in your life to help you realize your deepest dreams.
+            Sign up <em>now</em> to get started. <br><br>
 
+            You <em>know</em> you want to.
+        </p>
+        <form action="">
+            <div class="form-interface">
+                <span class="heading">Let's do this!</span>
+                <div class="form-inputs">
+                    <label for="fname">
+                        <span>FIRST NAME</span>
+                        <input type="text" id="fname" name="fname" required>
+                    </label>
+                    <label for="lname">
+                        <span>LAST NAME</span>
+                        <input type="text" id="lname" name="lname" required>
+                    </label>
+                    <label for="email">
+                        <span>EMAIL</span>
+                        <input type="email" id="email" name="email" required>
+                    </label>
+                    <label for="phonenr">
+                        <span>PHONE NUMBER</span>
+                        <input type="tel" id="phonenr" name="phonenr">
+                    </label>
+                    <label for="pwd">
+                        <span>PASSWORD</span>
+                        <input type="password" id="pwd" name="pwd" required>
+                    </label>
+                    <label for="conpwd">
+                        <span>CONFIRM PASSWORD</span>
+                        <input type="password" id="conpwd" name="conpwd" required>
+                    </label>
+                </div>
+            </div>
+            <div class="form-end">
+                <button>Create Account</button>
+                <span>Already have an account? <a href="">Log in</a></span>
+            </div>
+        </form>
+    </div>
 </body>
 </html>
